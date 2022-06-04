@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #00695c;
+    height: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar > ul{
+    padding: 5px;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.navbar > li{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.navbar > li a{
+    padding: 25px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.navbar > li a:hover{
+    color: #000;
+    background-color: #FFF;
+    transition: .5s;
+}
+
+/*Principal
+*/
+
+
+.banner{
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 600px;
+    clear: both;
+}
+
+
+.rgba{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 900px;
+    height: 300px;
+}
+
+.rgba h3{
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.rgba blockquote{
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/*Infos*/
+
+
+.infos{
+    background-color: #00695c;
+    width: 100%;
+    height: 370px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.infos h2{
+    text-align: center;
+    color: #FFF;
+    padding-top: 25px;
+}
+
+.container-infos{
+    justify-content: space-evenly;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-infos .grid{
+    width: 350px;
+    margin-top: 25px;
+}
+
+.container-infos .grid h4{
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container-infos .grid p{
+    color: #FFF;
+    font-weight: 200;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.produtos{
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.produtos h2{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list-items{
+    width: 100%;
+    align-items: center;
+
+}
+
+.nav-produtos{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.nav-produtos > li{
+    display: inline-block;
+
+}
+
+.nav-produtos > li button{
+    padding: 20px;
+    margin: 20px;
+    width: 150px;
+    text-transform: uppercase;
+}
+
+.nav-produtos button{
+    color: #00695c;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    border: solid 3px #00695c;
+}
+
+.nav-produtos button:hover{
+    background-color: #00695c;
+    color: #FFF;
+    border: 3px solid #00695c;
+}
+
+.card-imgs{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.card-single{
+    border: 1px solid black;
+    background-color: #c9c9c9;
+    color: #FFF;
+    width: 270px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+}
+
+.card-single img{
+    width: 270px;
+    background: #000;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.card-single h4{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.card-single p{
+    text-align: center;
+    margin-top: 20px;
+}
